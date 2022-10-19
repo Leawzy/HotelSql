@@ -74,5 +74,11 @@ namespace HotelSql
             AboutUs aboutUs = new AboutUs();
             aboutUs.Show(this);
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            ClientV3 clientV3 = new ClientV3();
+            clientV3.Show(this);
+        }
     }
 }

@@ -86,6 +86,12 @@
     <Compile Include="ClientV2.Designer.cs">
       <DependentUpon>ClientV2.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClientV3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientV3.Designer.cs">
+      <DependentUpon>ClientV3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ClientV2.resx">
       <DependentUpon>ClientV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientV3.resx">
+      <DependentUpon>ClientV3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
