@@ -76,7 +76,7 @@ namespace HotelSql
 
         private void button2_Click(object sender, EventArgs e)
         {
-            clientsBindingSource.Filter = "CheckInDate=" + comboBox1.Text + "";
+            clientsBindingSource.Filter = "CheckInDate=#" + comboBox1.Text + "#";
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace HotelSql
                     if (value != null)
                     {
                         string baseStr = value.ToString();
-                        if (baseStr.IndexOf(textBox1.Text) > -1);
+                        if (baseStr.IndexOf(textBox1.Text) > -1)
                         {
                             clientsDataGridView.Rows[j].Cells[i].Style.BackColor = Color.Aqua;
                             clientsDataGridView.Rows[j].Cells[i].Style.ForeColor = Color.Blue;
